@@ -1,0 +1,60 @@
+body{
+    background-color:rgb(248, 211, 156);
+    background-image: url("img/up.png"), url("img/horizontal.png"), url("img/vertikal.png"), url("img/vertikal.png"), url("img/left.png"), url("img/right.png");
+    background-repeat: no-repeat;
+    background-position: center top, bottom center, left center, right center, bottom left, bottom right;
+    padding: 100px 100px 0px 100px;
+}
+
+main {
+    background-color:rgb(248, 211, 156);
+    padding: 20px 200px;
+}
+
+h1 {
+    color:rgb(88, 46, 15);
+    text-align: center;
+    font-size:medium;
+}
+
+h3 {
+    color:rgb(88, 46, 15);
+    text-align: center;
+    font-size:medium;
+}
+
+p {
+    color: rgb(88, 46, 15);
+    font-size: medium;
+}
+
+a {
+    font-style: bold;
+    text-decoration: none;
+    color:rgb(248, 211, 156);
+    font-size:medium;
+}
+
+div {
+    background-color:rgb(88, 46, 15);
+    border: 2px outset ;
+    border-radius: 25px;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    }
+
+li {
+    color:rgb(88, 46, 15);
+    font-size: medium;
+    font-style:normal;
+}
+section {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    font-style: bold;
+    color: rgb(88, 46, 15);
+    padding: 30px;
+}
